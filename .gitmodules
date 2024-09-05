@@ -2,5 +2,11 @@
 	path = extlibs/code-virtualizer-sdk
 	url = https://github.com/orange-cpp/code-virtualizer-sdk.git
 [submodule "extlibs/omath"]
-	path = external/omath
+	path = extlibs/omath
 	url = https://github.com/orange-cpp/omath
+[submodule "extlibs/json"]
+	path = extlibs/json
+	url = https://github.com/nlohmann/json.git
+[submodule "extlibs/minhook"]
+	path = extlibs/minhook
+	url = https://github.com/TsudaKageyu/minhook.git

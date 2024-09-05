@@ -9,11 +9,14 @@ namespace navel
 {
     void MainThread(const HMODULE moduleHandle)
     {
+        while (!GetModuleHandleA("serverbrowser.dll"))
+            std::this_thread::sleep_for(std::chrono::milliseconds(200));
+
         while (true)
         {
             if (GetAsyncKeyState(VK_END) & 0x8000)
                 break;
-            
+
             std::this_thread::sleep_for(std::chrono::microseconds(100));
         }
         FreeLibrary(moduleHandle);
