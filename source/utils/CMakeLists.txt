@@ -1,0 +1,1 @@
+target_sources(navel PRIVATE memory.cpp)
