@@ -1,0 +1,6 @@
+[submodule "extlibs/code-virtualizer-sdk"]
+	path = extlibs/code-virtualizer-sdk
+	url = https://github.com/orange-cpp/code-virtualizer-sdk.git
+[submodule "extlibs/omath"]
+	path = external/omath
+	url = https://github.com/orange-cpp/omath
